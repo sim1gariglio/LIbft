@@ -3,16 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gduranti <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: sgarigli <sgarigli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/12 10:40:59 by gduranti          #+#    #+#             */
-/*   Updated: 2023/10/12 12:48:52 by sgarigli         ###   ########.fr       */
+/*   Updated: 2024/04/22 16:17:06 by sgarigli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h>
-#include <stdlib.h>
-#include <stdio.h>
 #include "libft.h"
 
 static size_t	ft_mtxsize(char const *s, char c)

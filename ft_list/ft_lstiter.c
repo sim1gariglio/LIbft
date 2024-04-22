@@ -1,19 +1,24 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_isalnum.c                                       :+:      :+:    :+:   */
+/*   ft_lstiter.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sgarigli <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: sgarigli <sgarigli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/10/09 11:04:42 by sgarigli          #+#    #+#             */
-/*   Updated: 2023/10/09 11:17:56 by sgarigli         ###   ########.fr       */
+/*   Created: 2023/10/16 12:37:23 by sgarigli          #+#    #+#             */
+/*   Updated: 2024/04/22 16:19:43 by sgarigli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_isalnum(int nm)
+#include "libft.h"
+
+void	ft_lstiter(t_list *lst, void (*f)(void *))
 {
-	if (((nm <= 'z' && nm >= 'a') || (nm <= 'Z' && nm >= 'A'))
-		|| (nm <= '9' && nm >= '0'))
-		return (1);
-	return (0);
+	if (lst == NULL)
+		return ;
+	while (lst != NULL)
+	{
+		f(lst->content);
+		lst = lst->next;
+	}
 }

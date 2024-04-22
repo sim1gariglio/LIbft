@@ -1,18 +1,20 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_isalpha.c                                       :+:      :+:    :+:   */
+/*   ft_isdigit.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sgarigli <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: sgarigli <sgarigli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/10/09 10:45:12 by sgarigli          #+#    #+#             */
-/*   Updated: 2023/10/09 11:16:59 by sgarigli         ###   ########.fr       */
+/*   Created: 2023/10/09 11:01:31 by sgarigli          #+#    #+#             */
+/*   Updated: 2024/04/22 16:17:57 by sgarigli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_isalpha(int nm)
+#include "libft.h"
+
+int	ft_isdigit(int nm)
 {
-	if ((nm <= 'z' && nm >= 'a') || (nm <= 'Z' && nm >= 'A'))
+	if (nm <= '9' && nm >= '0')
 		return (1);
 	return (0);
 }

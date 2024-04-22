@@ -1,22 +1,30 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_lstadd_front.c                                  :+:      :+:    :+:   */
+/*   ft_lstclear.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sgarigli <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: sgarigli <sgarigli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/10/16 10:02:46 by sgarigli          #+#    #+#             */
-/*   Updated: 2023/10/16 10:20:27 by sgarigli         ###   ########.fr       */
+/*   Created: 2023/10/16 12:20:19 by sgarigli          #+#    #+#             */
+/*   Updated: 2024/04/22 16:19:36 by sgarigli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdlib.h>
 
-void	ft_lstadd_front(t_list **lst, t_list *new)
+void	ft_lstclear(t_list **lst, void (*del)(void *))
 {
-	if (lst == NULL || new == NULL)
+	t_list	*current;
+
+	if (lst == NULL || *lst == NULL)
 		return ;
-	new->next = *lst;
-	*lst = new;
+	if (del == NULL)
+		return ;
+	while (*lst != NULL)
+	{
+		current = *lst;
+		*lst = (*lst)->next;
+		del(current->content);
+		free(current);
+	}
 }

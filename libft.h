@@ -6,14 +6,16 @@
 /*   By: sgarigli <sgarigli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/11 15:17:48 by sgarigli          #+#    #+#             */
-/*   Updated: 2024/01/12 11:25:13 by sgarigli         ###   ########.fr       */
+/*   Updated: 2024/04/22 16:17:24 by sgarigli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 # include <stddef.h>
-
+# include <stdlib.h>
+# include <unistd.h>
+# include <stdio.h>
 typedef struct s_list
 {
 	void			*content;
