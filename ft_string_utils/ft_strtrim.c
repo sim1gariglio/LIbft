@@ -3,16 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strtrim.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sgarigli <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: sgarigli <sgarigli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/12 13:51:25 by sgarigli          #+#    #+#             */
-/*   Updated: 2023/10/13 14:39:59 by sgarigli         ###   ########.fr       */
+/*   Updated: 2024/04/23 10:56:08 by sgarigli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
-#include <stdio.h>
-#include "libft.h"
+#include "ft_string_utils.h"
 
 static size_t	ft_newstart(char const *s1, char const *set)
 {

@@ -3,15 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sgarigli <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: sgarigli <sgarigli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/10 11:13:50 by sgarigli          #+#    #+#             */
-/*   Updated: 2023/10/13 14:32:24 by sgarigli         ###   ########.fr       */
+/*   Updated: 2024/04/23 10:55:31 by sgarigli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include "libft.h"
+#include "ft_string_utils.h"
 
 char	*ft_strchr(const char *s, int c)
 {

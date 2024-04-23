@@ -3,16 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memcpy.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sgarigli <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: sgarigli <sgarigli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/11 09:59:23 by sgarigli          #+#    #+#             */
-/*   Updated: 2023/10/13 14:40:34 by sgarigli         ###   ########.fr       */
+/*   Updated: 2024/04/23 10:54:21 by sgarigli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <string.h>
-#include <stdio.h>
-#include "libft.h"
+#include "ft_mem.h"
 
 void	*ft_memcpy(void *dest, const void *src, size_t n)
 {

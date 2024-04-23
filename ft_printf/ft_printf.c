@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_printf.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sgarigli <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: sgarigli <sgarigli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/31 10:03:44 by sgarigli          #+#    #+#             */
-/*   Updated: 2023/10/31 10:03:55 by sgarigli         ###   ########.fr       */
+/*   Updated: 2024/04/23 11:25:28 by sgarigli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-int	ft_print_args(va_list args, const char i)
+static int	ft_print_args(va_list args, const char i)
 {
 	int				nbrchr;
 

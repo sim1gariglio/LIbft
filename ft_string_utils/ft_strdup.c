@@ -3,17 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strdup.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sgarigli <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: sgarigli <sgarigli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/10 15:43:07 by sgarigli          #+#    #+#             */
-/*   Updated: 2023/10/11 14:56:01 by sgarigli         ###   ########.fr       */
+/*   Updated: 2024/04/23 10:55:35 by sgarigli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
-#include <string.h>
-#include <stdio.h>
-#include "libft.h"
+#include "ft_string_utils.h"
 
 char	*ft_strdup(const char *s)
 {

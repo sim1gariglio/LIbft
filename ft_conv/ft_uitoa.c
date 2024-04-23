@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_uitoa.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sgarigli <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: sgarigli <sgarigli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/10/31 10:07:09 by sgarigli          #+#    #+#             */
-/*   Updated: 2023/10/31 10:07:12 by sgarigli         ###   ########.fr       */
+/*   Created: 2024/04/23 11:37:55 by sgarigli          #+#    #+#             */
+/*   Updated: 2024/04/23 11:38:25 by sgarigli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "ft_conversion.h"
 
 static size_t	ft_10pow(int exp)
 {

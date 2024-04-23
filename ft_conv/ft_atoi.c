@@ -6,11 +6,11 @@
 /*   By: sgarigli <sgarigli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/10 15:08:37 by sgarigli          #+#    #+#             */
-/*   Updated: 2024/04/22 16:17:34 by sgarigli         ###   ########.fr       */
+/*   Updated: 2024/04/23 10:49:10 by sgarigli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "ft_conversion.h"
 
 int	ft_atoi(const char *nptr)
 {

@@ -3,12 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isprint.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sgarigli <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: sgarigli <sgarigli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/09 11:18:22 by sgarigli          #+#    #+#             */
-/*   Updated: 2023/10/09 11:20:46 by sgarigli         ###   ########.fr       */
+/*   Updated: 2024/04/23 10:50:10 by sgarigli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "ft_is.h"
 
 int	ft_isprint(int nm)
 {

@@ -3,16 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strjoin.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sgarigli <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: sgarigli <sgarigli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/12 10:12:58 by sgarigli          #+#    #+#             */
-/*   Updated: 2023/10/13 14:24:11 by sgarigli         ###   ########.fr       */
+/*   Updated: 2024/04/23 10:55:42 by sgarigli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
-#include <stdio.h>
-#include "libft.h"
+#include "ft_string_utils.h"
 
 char	*ft_strjoin(char const *s1, char const *s2)
 {

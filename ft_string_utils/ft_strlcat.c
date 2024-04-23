@@ -3,16 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcat.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sgarigli <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: sgarigli <sgarigli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/10 10:14:12 by sgarigli          #+#    #+#             */
-/*   Updated: 2023/10/11 14:56:56 by sgarigli         ###   ########.fr       */
+/*   Updated: 2024/04/23 10:55:45 by sgarigli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <string.h>
-#include <stddef.h>
+#include "ft_string_utils.h"
 
 size_t	ft_strlcat(char *dest, const char *src, size_t size)
 {

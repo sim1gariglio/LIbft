@@ -6,11 +6,11 @@
 /*   By: sgarigli <sgarigli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/12 10:40:59 by gduranti          #+#    #+#             */
-/*   Updated: 2024/04/22 16:17:06 by sgarigli         ###   ########.fr       */
+/*   Updated: 2024/04/23 10:55:05 by sgarigli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "ft_string_utils.h"
 
 static size_t	ft_mtxsize(char const *s, char c)
 {

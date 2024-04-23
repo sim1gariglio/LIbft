@@ -6,11 +6,11 @@
 /*   By: sgarigli <sgarigli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/09 10:45:12 by sgarigli          #+#    #+#             */
-/*   Updated: 2024/04/22 16:17:51 by sgarigli         ###   ########.fr       */
+/*   Updated: 2024/04/23 10:50:03 by sgarigli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "ft_is.h"
 
 int	ft_isalpha(int nm)
 {

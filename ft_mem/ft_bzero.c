@@ -6,11 +6,11 @@
 /*   By: sgarigli <sgarigli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/09 13:02:59 by sgarigli          #+#    #+#             */
-/*   Updated: 2024/04/22 16:17:40 by sgarigli         ###   ########.fr       */
+/*   Updated: 2024/04/23 10:51:07 by sgarigli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "ft_mem.h"
 
 void	ft_bzero(void *s, size_t n)
 {

@@ -3,17 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memset.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sgarigli <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: sgarigli <sgarigli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/09 12:17:54 by sgarigli          #+#    #+#             */
-/*   Updated: 2023/10/11 14:53:31 by sgarigli         ###   ########.fr       */
+/*   Updated: 2024/04/23 10:54:26 by sgarigli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h>
-#include <stdio.h>
-#include <string.h>
-#include "libft.h"
+#include "ft_mem.h"
 
 void	*ft_memset(void *s, int c, size_t n)
 {

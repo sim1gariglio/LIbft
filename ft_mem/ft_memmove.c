@@ -3,16 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memmove.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sgarigli <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: sgarigli <sgarigli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/11 10:12:00 by sgarigli          #+#    #+#             */
-/*   Updated: 2023/10/11 14:53:04 by sgarigli         ###   ########.fr       */
+/*   Updated: 2024/04/23 10:54:23 by sgarigli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <string.h>
-#include "libft.h"
+#include "ft_mem.h"
 
 void	*ft_memmove(void *dest, const void *src, size_t n)
 {

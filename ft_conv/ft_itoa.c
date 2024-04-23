@@ -3,17 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sgarigli <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: sgarigli <sgarigli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/13 09:13:57 by sgarigli          #+#    #+#             */
-/*   Updated: 2023/10/13 14:20:29 by sgarigli         ###   ########.fr       */
+/*   Updated: 2024/04/23 10:49:19 by sgarigli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <stdlib.h>
-#include "libft.h"
-
+#include "ft_conversion.h"
 static size_t	ft_10pow(int exp)
 {
 	size_t	pow;

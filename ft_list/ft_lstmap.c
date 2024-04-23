@@ -6,11 +6,11 @@
 /*   By: sgarigli <sgarigli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/17 09:08:40 by sgarigli          #+#    #+#             */
-/*   Updated: 2024/04/22 16:19:47 by sgarigli         ###   ########.fr       */
+/*   Updated: 2024/04/23 10:50:44 by sgarigli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "ft_list.h"
 
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 {

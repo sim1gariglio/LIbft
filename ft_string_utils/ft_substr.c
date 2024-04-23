@@ -3,16 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_substr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sgarigli <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: sgarigli <sgarigli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/16 09:14:53 by sgarigli          #+#    #+#             */
-/*   Updated: 2023/10/16 14:20:10 by sgarigli         ###   ########.fr       */
+/*   Updated: 2024/04/23 10:56:10 by sgarigli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
-#include <stdlib.h>
-#include <stdio.h>
+#include "ft_string_utils.h"
 
 static size_t	ft_strmaxlen(char const *s, unsigned int start, size_t len)
 {

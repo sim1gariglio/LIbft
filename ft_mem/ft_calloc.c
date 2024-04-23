@@ -6,11 +6,11 @@
 /*   By: sgarigli <sgarigli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/10 15:52:38 by sgarigli          #+#    #+#             */
-/*   Updated: 2024/04/22 16:17:44 by sgarigli         ###   ########.fr       */
+/*   Updated: 2024/04/23 10:51:12 by sgarigli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "ft_mem.h"
 
 void	*ft_calloc(size_t nmemb, size_t size)
 {
