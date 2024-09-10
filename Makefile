@@ -6,7 +6,7 @@
 #    By: sgarigli <sgarigli@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/10/16 12:09:22 by sgarigli          #+#    #+#              #
-#    Updated: 2024/04/23 11:42:22 by sgarigli         ###   ########.fr        #
+#    Updated: 2024/09/10 12:53:08 by sgarigli         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -55,7 +55,7 @@ FT_UTILS_SRCS = $(FT_UTILS_DIR)/ft_tolower.c $(FT_UTILS_DIR)/ft_toupper.c
 FT_UTILS_HEADER = $(FT_UTILS_DIR)/ft_utils.h
 
 GNL_DIR = get_next_line
-GNL_SRCS = $(GNL_DIR)/get_next_line_bonus.c $(GNL_DIR)/get_next_line_utils_bonus.c 
+GNL_SRCS = $(GNL_DIR)/get_next_line.c $(GNL_DIR)/get_next_line_utils.c 
 
 FT_PRINTF_DIR = ft_printf
 FT_PRINTF_SRC = $(FT_PRINTF_DIR)/ft_printf.c $(FT_PRINTF_DIR)/ft_printf_hex.c \
